@@ -9,7 +9,7 @@
 
 /*URL for the server logo
 Leave it blank to use text instead*/
-var l_serverImage = "images/logo.png";
+var l_serverImage = "images/logofrytkolandia.png";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
@@ -87,10 +87,10 @@ var l_musicDisplay = true;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{ogg: "songs/StarWarsSong.mp3", name: "StarWarsSong"},
-	{youtube: "j0PA0PX7lKo", name: "StarWarsMusic"},
-	{youtube: "yHZfHPhNjXo", name: "StarWarsMusic"},
-	{youtube: "-7VeTkLKdDw", name: "StarWars Music"}
+	{ogg: "songs/W drodze na Kamino.mp3", name: "W drodze na Kamino"},
+	{youtube: "j0PA0PX7lKo", name: "W drodze na Kamino"},
+	{youtube: "yHZfHPhNjXo", name: "W drodze na Kamino"},
+	{youtube: "-7VeTkLKdDw", name: "W drodze na Kamino"}
 ];
 
 /*Random music order?*/
@@ -98,7 +98,7 @@ var l_musicRandom = true;
 
 /*Music volume
 Choose a value between 0 and 100*/
-var l_musicVolume = 5;
+var l_musicVolume = 8;
 
 /*Enable custom messages?*/
 var l_messagesEnabled = true;
@@ -107,7 +107,11 @@ var l_messagesEnabled = true;
 var l_messages = [
 "Witamy na Serwerze Frytkolandia!",
 "Mamy nadzieję że będziesz się dobrze bawił!",
-"Rób albo nie rób, nie ma próbowania..."
+"Wkrótce wybudzisz się ze Snu...",
+"Aktualnym miejscem twojego pobytu jest Miasto Tipoca znajdujące się na Planecie Kamino",
+"Kaminoanie tworzą tu Armię Klonów mających służyć Republice, jesteś jednym z nich...",
+"Wkrótce staniesz do Walki przeciwko Konfederacji Niezależnych Systemów oraz ich Droidom Bojowym",
+"Twoje szanse na przeżycie są...znikome"
 ];
 
 /*Random message order?*/
